@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "yd2IP74vwoP2fEnX5rhcBcTQ7/C6wFEp8OpPDqq3zgvjMrD4GiHOiUNgbAZWXnFciZugEE4/80iRevQ+TXuASQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\vuvie\\source\\repos\\UniformADS\\UniformADS\\UniformADS.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Harmony with version (>= 2.0.1)\r\n  - Found 4 version(s) in nuget.org [ Nearest version: 0.3.0 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages",
+      "libraryId": "Harmony",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

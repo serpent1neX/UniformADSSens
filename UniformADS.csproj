@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Harmony" Version="2.0.1" />
+		<!-- Use a version that is available on NuGet and compatible with net8.0 -->
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="0Harmony20">
+		  <HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\BepInEx\core\0Harmony20.dll</HintPath>
+		</Reference>
+		<Reference Include="BepInEx">
+			<HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\BepInEx\core\BepInEx.dll</HintPath>
+		</Reference>
+		<Reference Include="BepInEx.Harmony">
+			<HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\BepInEx\core\BepInEx.Harmony.dll</HintPath>
+		</Reference>
+		<Reference Include="BepInEx.Preloader">
+			<HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\BepInEx\core\BepInEx.Preloader.dll</HintPath>
+		</Reference>
+		<Reference Include="HarmonyXInterop">
+			<HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\BepInEx\core\HarmonyXInterop.dll</HintPath>
+		</Reference>
+		<Reference Include="Mono.Cecil">
+			<HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\BepInEx\core\Mono.Cecil.dll</HintPath>
+		</Reference>
+		<Reference Include="Mono.Cecil.Mdb">
+			<HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\BepInEx\core\Mono.Cecil.Mdb.dll</HintPath>
+		</Reference>
+		<Reference Include="Mono.Cecil.Pdb">
+			<HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\BepInEx\core\Mono.Cecil.Pdb.dll</HintPath>
+		</Reference>
+		<Reference Include="Mono.Cecil.Rocks">
+			<HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\BepInEx\core\Mono.Cecil.Rocks.dll</HintPath>
+		</Reference>
+		<Reference Include="MonoMod.RuntimeDetour">
+			<HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\BepInEx\core\MonoMod.RuntimeDetour.dll</HintPath>
+		</Reference>
+		<Reference Include="MonoMod.Utils">
+			<HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\BepInEx\core\MonoMod.Utils.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine">
+			<HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\ravenfield_Data\Managed\UnityEngine.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.CoreModule">
+			<HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\ravenfield_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>
